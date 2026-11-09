@@ -1,0 +1,3 @@
+agent,is_stub,topology,N,n_confed,fraction,n_sims,rounds,mean_final_new_share
+claude-cli:claude-sonnet-5-5,0,complete,24,3,0.125,1,30,0.0
+claude-cli:claude-sonnet-5-5,0,complete,24,6,0.25,1,30,0.1667

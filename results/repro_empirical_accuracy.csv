@@ -1,0 +1,16 @@
+model,subset,hits,n,accuracy,published_accuracy,note
+threshold,all rounds,7815,8893,0.8788,0.879,"published n = 8,893"
+threshold,rounds > 12,7792,8868,0.8787,0.879,"published n = 8,893"
+imitate,all rounds,11767,15405,0.7638,,
+imitate,rounds > 12,10195,12575,0.8107,0.811,
+optimize,all rounds,13227,19496,0.6784,,"unique plurality, ties at random (paper text)"
+optimize,rounds > 12,11752,15716,0.7478,0.752,"unique plurality, ties at random (paper text)"
+optimize_recent_tie,all rounds,13445,19504,0.6893,,"newest-name ties, looser determinism test (see README)"
+optimize_recent_tie,rounds > 12,11908,15843,0.7516,0.752,"newest-name ties, looser determinism test (see README)"
+two_thirds,all rounds,7815,8893,0.8788,,
+two_thirds,rounds > 12,7792,8868,0.8787,,
+luce,all rounds,10699.3,23852,0.4486,,expected value
+luce,rounds > 12,9267.1,17366,0.5336,0.534,expected value
+optimize_recent_tie,"rounds > 12, threshold not yet reached",4130,6994,0.5905,0.591,"published n = 10,630 (all rounds)"
+optimize,"rounds > 12, threshold not yet reached",3960,6848,0.5783,0.591,paper-text tie rule
+human,"memory 7 top name : 5 other, CBBB2018, from round 22 (authors' definition)",394,1343,0.2934,0.29,"released output file: 1343 trials, 949 top name, 394 other; the paper text gives 949 as the number of observations; replay of the human data"

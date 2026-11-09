@@ -1,0 +1,28 @@
+{
+  "client": "claude-cli:claude-sonnet-5-5",
+  "is_stub": false,
+  "date": "2026-11-08T19:50:47+00:00",
+  "calls": 78,
+  "retries": 0,
+  "fallbacks": 0,
+  "command": "python -m namegame.cli llm-probe --client claude-cli:claude-sonnet-5-5 --reps 6 --max-calls 200",
+  "reps": 6,
+  "mode": "memory",
+  "temperature": null,
+  "max_tokens": 16,
+  "fallback_rate": 0.0,
+  "max_fallback_rate": 0.05,
+  "valid": true,
+  "complete": true,
+  "stopped_reason": "",
+  "resumed_units": 0,
+  "budget": {
+    "max_calls": 200,
+    "max_cost_usd": null,
+    "price_in_per_million": null,
+    "price_out_per_million": null,
+    "tokens_in": 60808,
+    "tokens_out": 724,
+    "cost_usd": null
+  }
+}

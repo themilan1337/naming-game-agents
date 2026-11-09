@@ -1,0 +1,16 @@
+agent,N,tipping_fraction_50pct
+threshold,24,0.205
+imitate,24,0.064
+optimize,24,0.234
+luce,24,0.094
+optimize_recent_tie,24,0.228
+threshold,48,0.212
+imitate,48,0.072
+optimize,48,0.244
+luce,48,0.097
+optimize_recent_tie,48,0.233
+threshold,96,0.215
+imitate,96,0.072
+optimize,96,0.247
+luce,96,0.097
+optimize_recent_tie,96,0.236

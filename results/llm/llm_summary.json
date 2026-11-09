@@ -1,0 +1,126 @@
+{
+  "client": "claude-cli_claude-sonnet-5-5",
+  "N": 24,
+  "rounds": 30,
+  "probe_p_by_k": {
+    "0": 0.0,
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0
+  },
+  "probe_reps_per_k": {
+    "0": 6,
+    "1": 6,
+    "2": 6,
+    "3": 6,
+    "4": 6,
+    "5": 6,
+    "6": 6,
+    "7": 6,
+    "8": 6,
+    "9": 6,
+    "10": 6,
+    "11": 6,
+    "12": 6
+  },
+  "llm_games": [
+    {
+      "game": 0,
+      "converged_round": "7",
+      "final_top_share": 1.0,
+      "final_success_rate": 1.0,
+      "final_n_names": 1
+    }
+  ],
+  "rule_agents_same_setting": {
+    "threshold": {
+      "converged": 245,
+      "of": 300,
+      "mean_round": 18.4
+    },
+    "imitate": {
+      "converged": 286,
+      "of": 300,
+      "mean_round": 14.6
+    },
+    "optimize": {
+      "converged": 299,
+      "of": 300,
+      "mean_round": 12.8
+    },
+    "luce": {
+      "converged": 210,
+      "of": 300,
+      "mean_round": 18.1
+    }
+  },
+  "rule_final_top_share": {
+    "threshold": 0.935,
+    "imitate": 0.981,
+    "optimize": 0.998,
+    "luce": 0.841
+  },
+  "tipping_rule_agents_same_setting": {
+    "3": {
+      "threshold": {
+        "mean_final_new_share": 0.006,
+        "share_of_runs_above_half": 0.0
+      },
+      "imitate": {
+        "mean_final_new_share": 0.942,
+        "share_of_runs_above_half": 0.973
+      },
+      "optimize": {
+        "mean_final_new_share": 0.002,
+        "share_of_runs_above_half": 0.0
+      },
+      "luce": {
+        "mean_final_new_share": 0.292,
+        "share_of_runs_above_half": 0.027
+      }
+    },
+    "6": {
+      "threshold": {
+        "mean_final_new_share": 0.345,
+        "share_of_runs_above_half": 0.123
+      },
+      "imitate": {
+        "mean_final_new_share": 1.0,
+        "share_of_runs_above_half": 1.0
+      },
+      "optimize": {
+        "mean_final_new_share": 0.122,
+        "share_of_runs_above_half": 0.007
+      },
+      "luce": {
+        "mean_final_new_share": 0.646,
+        "share_of_runs_above_half": 0.84
+      }
+    }
+  },
+  "tipping_llm": [
+    {
+      "n_confed": "3",
+      "fraction": "0.125",
+      "n_sims": "1",
+      "rounds": "30",
+      "mean_final_new_share": "0.0"
+    },
+    {
+      "n_confed": "6",
+      "fraction": "0.25",
+      "n_sims": "1",
+      "rounds": "30",
+      "mean_final_new_share": "0.1667"
+    }
+  ]
+}
